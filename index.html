@@ -69,8 +69,9 @@
                                 <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">Kategoria</label>
                                 <select class="w-full px-4 py-3 rounded-xl border border-white/40 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm bg-white/50 backdrop-blur-sm text-slate-900">
                                     <option class="text-slate-900 bg-white">Kategoria B (Podstawowa)</option>
-                                    <option class="text-slate-900 bg-white">Jazdy Uzupełniające</option>
-                                    <option class="text-slate-900 bg-white">Kurs Ekspresowy</option>
+                                    <option class="text-slate-900 bg-white">Kurs Ekspresowy (Promocja!)</option>
+                                    <option class="text-slate-900 bg-white">Jazdy Uzupełniające / Godzina Dodatkowa</option>
+                                    <option class="text-slate-900 bg-white">Pakiet Doszkalający</option>
                                 </select>
                             </div>
                             <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3.5 rounded-xl shadow-lg transition-all mt-2">
@@ -154,64 +155,91 @@
                 <p class="text-slate-600 mt-2">Brak ukrytych opłat. Przejrzyste warunki od pierwszego dnia.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 
-                <!-- Package 1 -->
-                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <!-- Package 1: Podstawowy -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
                     <div>
                         <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Najpopularniejszy</span>
-                        <h3 class="text-2xl font-bold text-slate-900 mt-1 mb-4">Kurs Podstawowy Kat. B</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Kurs Podstawowy Kat. B</h3>
                         <div class="mb-6">
-                            <span class="text-4xl font-extrabold text-slate-900">3 200 PLN</span>
+                            <span class="text-3xl font-extrabold text-slate-900">4 200 PLN</span>
                         </div>
-                        <ul class="space-y-3.5 text-slate-600 text-sm mb-8">
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> 30h zajęć teoretycznych</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> 30h zajęć praktycznych (jazdy)</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Materiały dydaktyczne + Aplikacja</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Egzamin wewnętrzny</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Płatność w ratach 0%</li>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> 30h zajęć teoretycznych</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> 30h zajęć praktycznych</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Materiały dydaktyczne</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Egzamin wewnętrzny</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Płatność w ratach 0%</li>
                         </ul>
                     </div>
-                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-3 rounded-xl transition-colors block">Zapisz się</a>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Zapisz się</a>
                 </div>
 
-                <!-- Package 2 (Highlighted) -->
-                <div class="bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-xl text-white flex flex-col justify-between relative transform lg:-translate-y-2">
-                    <div class="absolute -top-3 right-8 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Polecany</div>
+                <!-- Package 2: Ekspresowy (Promocja 4500 zł) -->
+                <div class="bg-slate-900 rounded-3xl p-6 border border-amber-500/50 shadow-xl text-white flex flex-col justify-between relative transform lg:-translate-y-2">
+                    <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-500 to-red-500 text-white text-[11px] font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-lg animate-bounce">
+                        PROMOCJA !!!
+                    </div>
                     <div>
-                        <span class="text-blue-400 font-semibold text-xs uppercase tracking-wider">Dla zabieganych</span>
-                        <h3 class="text-2xl font-bold mt-1 mb-4">Kurs Ekspresowy</h3>
-                        <div class="mb-6">
-                            <span class="text-4xl font-extrabold text-white">3 900 PLN</span>
+                        <span class="text-amber-400 font-semibold text-xs uppercase tracking-wider flex items-center gap-1 mt-1">
+                            <i data-lucide="zap" class="w-3.5 h-3.5"></i> Oferta Specjalna
+                        </span>
+                        <h3 class="text-xl font-bold mt-1 mb-2">Kurs Ekspresowy</h3>
+                        
+                        <!-- Banner Promocyjny -->
+                        <div class="bg-amber-500/20 border border-amber-500/40 rounded-xl p-2.5 mb-4 text-amber-300 text-xs font-bold text-center leading-snug">
+                            TYLKO WE WRZEŚNIU zrobisz kurs w miesiąc!!!!
                         </div>
-                        <ul class="space-y-3.5 text-slate-300 text-sm mb-8">
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-400"></i> Teoria w systemie e-learning</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-400"></i> Priorytet w harmonogramie jazd</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-400"></i> Realizacja jazd w ~15-20 dni</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-400"></i> Materiały dydaktyczne w cenie</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-400"></i> Egzamin wewnętrzny</li>
+
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-white">4 500 PLN</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-300 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Teoria e-learning</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Priorytet w harmonogramie</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Jazdy w ~15-20 dni</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Materiały w cenie</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Egzamin wewnętrzny</li>
                         </ul>
                     </div>
-                    <a href="#kontakt" class="w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl shadow-lg shadow-blue-600/30 transition-all block">Wybierz ekspres</a>
+                    <a href="#kontakt" class="w-full text-center bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold py-2.5 rounded-xl shadow-lg shadow-amber-500/20 transition-all block text-sm">Zapisz się na promocję</a>
                 </div>
 
-                <!-- Package 3 -->
-                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <!-- Package 3: Godzina Dodatkowa -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
                     <div>
-                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Szlifowanie umiejętności</span>
-                        <h3 class="text-2xl font-bold text-slate-900 mt-1 mb-4">Jazdy Doszkalające</h3>
+                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Przed egzaminem</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Godzina Dodatkowa</h3>
                         <div class="mb-6">
-                            <span class="text-4xl font-extrabold text-slate-900">110 PLN</span>
-                            <span class="text-slate-500 text-sm"> / godzina</span>
+                            <span class="text-3xl font-extrabold text-slate-900">160 PLN</span>
+                            <span class="text-slate-500 text-xs"> / h</span>
                         </div>
-                        <ul class="space-y-3.5 text-slate-600 text-sm mb-8">
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Trasy egzaminacyjne Płocka</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Ćwiczenie trudnych manewrów</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Dla osób przed egzaminem</li>
-                            <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4 text-blue-600"></i> Dla kierowców z prawem jazdy</li>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dla kursantów Akademii</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Indywidualne podejście</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Elastyczne terminy</li>
                         </ul>
                     </div>
-                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-3 rounded-xl transition-colors block">Kup godziny</a>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Kup godzinę</a>
+                </div>
+
+                <!-- Package 4: Pakiet Doszkalający -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Dla kierowców</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Pakiet Doszkalający</h3>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-slate-900">180 PLN</span>
+                            <span class="text-slate-500 text-xs"> / h</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dla osób z prawem jazdy</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Trasy w realnym ruchu</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dowolna liczba godzin</li>
+                        </ul>
+                    </div>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Kup godziny</a>
                 </div>
 
             </div>
