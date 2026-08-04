@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <!-- Sekcja Hero z Tłem Obrazkowym (189965.jpg) -->
+    <!-- Sekcja Hero (Tło 189965.jpg, Formularz po lewej, tekst po prawej) -->
     <section class="relative bg-cover bg-center bg-no-repeat py-16 sm:py-24" style="background-image: url('189965.jpg');">
         <!-- Ciemny Overlay dla czytelności tekstu -->
         <div class="absolute inset-0 bg-slate-900/65 backdrop-blur-[2px]"></div>
@@ -42,23 +42,8 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 
-                <!-- Tekst Nagłówkowy -->
-                <div class="text-center lg:text-left text-white">
-                    <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 drop-shadow-md">
-                        Prawo Jazdy Kat. B w Płocku
-                    </h1>
-                    <p class="text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto lg:mx-0 mb-8 drop-shadow">
-                        Bezstresowa atmosfera, indywidualne podejście i nowoczesne pojazdy. Zdać egzamin za pierwszym razem z nami!
-                    </p>
-                    <a href="tel:+48784133672" 
-                       class="inline-flex items-center bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 text-lg transform hover:-translate-y-0.5">
-                        <i class="fa-solid fa-phone mr-3"></i>
-                        784 133 672
-                    </a>
-                </div>
-
-                <!-- Formularz Zgłoszeniowy z Prześwitującym Tłem (Glassmorphism) -->
-                <div class="relative max-w-md mx-auto lg:max-w-none w-full">
+                <!-- Formularz Zgłoszeniowy (Lewa strona) -->
+                <div class="relative max-w-md mx-auto lg:max-w-none w-full order-2 lg:order-1">
                     <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-3xl blur-xl opacity-30"></div>
                     
                     <div class="relative bg-white/40 backdrop-blur-xl p-8 sm:p-10 rounded-3xl shadow-2xl border border-white/30 text-slate-900">
@@ -92,6 +77,21 @@
                             </button>
                         </form>
                     </div>
+                </div>
+
+                <!-- Tekst Nagłówkowy (Prawa strona) -->
+                <div class="text-center lg:text-left text-white order-1 lg:order-2">
+                    <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 drop-shadow-md">
+                        Prawo Jazdy Kat. B w Płocku
+                    </h1>
+                    <p class="text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto lg:mx-0 mb-8 drop-shadow">
+                        Bezstresowa atmosfera, indywidualne podejście i nowoczesne pojazdy. Zdać egzamin za pierwszym razem z nami!
+                    </p>
+                    <a href="tel:+48784133672" 
+                       class="inline-flex items-center bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 text-lg transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-phone mr-3"></i>
+                        784 133 672
+                    </a>
                 </div>
 
             </div>
