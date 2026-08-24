@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="icon" type="image/png" href="https://akademiajazdy.milun.pl/189966.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Prawa Jazdy Płock | Akademia Jazdy Alicja Milun | Nauka Jazdy Kat. B</title>
+    <meta name="description" content="Szukasz kursu prawa jazdy w Płocku? Akademia Jazdy Alicja Milun oferuje bezstresową naukę, profesjonalnych instruktorów i przygotowanie do egzaminu w WORD. Zapisz się już dziś!">
+    <link rel="canonical" href="https://akademiajazdy.milun.pl" />
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Akademia Jazdy Alicja Milun Płock">
+    <meta property="og:description" content="Ośrodek Szkolenia Kierowców, Akademia Jazdy Alicja Milun, kurszy na prawo jazdy kategorii B w Płocku">
+    <meta property="og:url" content="https://akademiajazdy.milun.pl">
+    <meta property="og:type" content="website">
+  
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome (ikony) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Nav / Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <!-- Logo / Nazwa -->
+            <div class="flex items-center space-x-3">
+                <img src="189966.png" alt="Logo Akademia Jazdy Alicja Milun" class="h-10 sm:h-12 w-auto object-contain">
+                <span class="text-xl sm:text-2xl font-bold text-blue-900 tracking-tight">
+                    Akademia Jazdy <span class="text-blue-600">Alicja Milun</span>
+                </span>
+            </div>
+
+            <!-- Przycisk Zadzwoń (aktywny link tel:) -->
+            <div>
+                <a href="tel:+48798430540" 
+                   class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 sm:px-6 rounded-full shadow-md hover:shadow-lg transition duration-300 transform active:scale-95">
+                    <i class="fa-solid fa-phone mr-2 text-sm sm:text-base animate-pulse"></i>
+                    <span class="text-sm sm:text-base">Zadzwoń teraz</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sekcja Hero (Tło 189965.jpg, Formularz po lewej, tekst po prawej) -->
+    <section class="relative bg-cover bg-center bg-no-repeat py-16 sm:py-24" style="background-image: url('189965.jpg');">
+        <!-- Ciemny Overlay dla czytelności tekstu -->
+        <div class="absolute inset-0 bg-slate-900/65 backdrop-blur-[2px]"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Formularz Zgłoszeniowy (Lewa strona) -->
+                <div class="relative max-w-md mx-auto lg:max-w-none w-full order-2 lg:order-1">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-3xl blur-xl opacity-30"></div>
+                    
+                    <div class="relative bg-white/40 backdrop-blur-xl p-8 sm:p-10 rounded-3xl shadow-2xl border border-white/30 text-slate-900">
+                        <div class="flex items-center gap-4 mb-6 pb-6 border-b border-slate-900/10">
+                            <img src="189966.png" alt="Logo" class="w-14 h-14 object-contain">
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-900 drop-shadow-sm">Dołącz do najbliższej grupy!</h3>
+                                <p class="text-slate-700 text-xs font-medium">Wypełnij formularz – oddzwonimy z ofertą.</p>
+                            </div>
+                        </div>
+                        
+                        <form action="https://formspree.io/f/mdennjoe" method="POST" class="space-y-4" id="formularz-zgloszeniowy">
+                            <!-- Pole antyspamowe (honeypot) - ukryte dla ludzi, wypełniane tylko przez boty -->
+                            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                            <!-- Temat maila -->
+                            <input type="hidden" name="_subject" value="Nowe zgłoszenie na kurs - Akademia Jazdy Alicja Milun">
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">Imię i Nazwisko</label>
+                                <input type="text" name="imie_nazwisko" required placeholder="Jan Kowalski" class="w-full px-4 py-3 rounded-xl border border-white/40 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm bg-white/50 backdrop-blur-sm text-slate-900 placeholder-slate-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">Numer telefonu</label>
+                                <input type="tel" name="telefon" required placeholder="+48 000 000 000" class="w-full px-4 py-3 rounded-xl border border-white/40 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm bg-white/50 backdrop-blur-sm text-slate-900 placeholder-slate-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">Kategoria</label>
+                                <select name="kategoria" class="w-full px-4 py-3 rounded-xl border border-white/40 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm bg-white/50 backdrop-blur-sm text-slate-900">
+                                    <option class="text-slate-900 bg-white">Kategoria B (Podstawowa)</option>
+                                    <option class="text-slate-900 bg-white">Kurs Ekspresowy (Promocja!)</option>
+                                    <option class="text-slate-900 bg-white">Jazdy Uzupełniające / Godzina Dodatkowa</option>
+                                    <option class="text-slate-900 bg-white">Jazdy Doszkalające</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3.5 rounded-xl shadow-lg transition-all mt-2">
+                                Zarezerwuj miejsce
+                            </button>
+                            <p id="status-wyslania" class="text-xs text-center hidden"></p>
+                        </form>
+                        <script>
+                            const formularz = document.getElementById('formularz-zgloszeniowy');
+                            const status = document.getElementById('status-wyslania');
+                            formularz.addEventListener('submit', async function (e) {
+                                e.preventDefault();
+                                const dane = new FormData(formularz);
+                                try {
+                                    const odpowiedz = await fetch(formularz.action, {
+                                        method: 'POST',
+                                        body: dane,
+                                        headers: { 'Accept': 'application/json' }
+                                    });
+                                    status.classList.remove('hidden');
+                                    if (odpowiedz.ok) {
+                                        status.textContent = 'Dziękujemy! Zgłoszenie zostało wysłane, oddzwonimy wkrótce.';
+                                        status.classList.add('text-white-700');
+                                        formularz.reset();
+                                    } else {
+                                        status.textContent = 'Ups, coś poszło nie tak. Zadzwoń do nas: 798 430 540.';
+                                        status.classList.add('text-red-700');
+                                    }
+                                } catch (err) {
+                                    status.classList.remove('hidden');
+                                    status.textContent = 'Brak połączenia. Zadzwoń do nas: 798 430 540.';
+                                    status.classList.add('text-red-700');
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <!-- Tekst Nagłówkowy (Prawa strona) -->
+                <div class="text-center lg:text-left text-white order-1 lg:order-2">
+                    <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 drop-shadow-md">
+                        Prawo Jazdy Kat. B w Płocku
+                    </h1>
+                    <p class="text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto lg:mx-0 mb-8 drop-shadow">
+                        Bezstresowa atmosfera, indywidualne podejście i nowoczesne pojazdy. Zdać egzamin za pierwszym razem z nami!
+                    </p>
+                    <a href="tel:+48798430540" 
+                       class="inline-flex items-center bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 text-lg transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-phone mr-3"></i>
+                        798 430 540
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- O NAS / OŚRODEK -->
+    <section id="o-nas" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 text-blue-600 text-xs font-semibold uppercase tracking-wider">
+                        O Ośrodku
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
+                        Szkoła Tworzona z Pasją do Bezpiecznej Jazdy
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        W <strong>Akademii Jazdy Alicja Milun</strong> stawiamy na indywidualne podejście do każdego kursanta. Wiemy, że początki za kierownicą bywają stresujące, dlatego dbamy o przyjazną, bezstresową atmosferę.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed">
+                        Nasz ośrodek mieści się w samym centrum Płocka przy ul. (podamy wkrótce). Doskonała lokalizacja pozwala na natychmiastowy wjazd na trasy w rzeczywistym ruchu drogowym.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                            <i data-lucide="shield-check" class="w-8 h-8 text-blue-600 mb-2"></i>
+                            <h4 class="font-bold text-slate-900 mb-1">Bezstresowo</h4>
+                            <p class="text-xs text-slate-500">Cierpliwi i doświadczeni instruktorzy.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                            <i data-lucide="map-pin" class="w-8 h-8 text-blue-600 mb-2"></i>
+                            <h4 class="font-bold text-slate-900 mb-1">Trasy w Płocku</h4>
+                            <p class="text-xs text-slate-500">Ćwiczymy na trudnych skrzyżowaniach Płocka.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Photo Showcase Card -->
+                <div class="relative rounded-3xl overflow-hidden shadow-xl border border-slate-100 group">
+                    <img src="am2.jpg" alt="Instruktorka nauki jazdy Alicja Milun" class="w-full h-[450px] object-cover transition-transform duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-8">
+                        <div class="text-white">
+                            <h3 class="text-xl font-bold">Alicja Milun</h3>
+                            <p class="text-sm text-slate-300">Gwarancja profesjonalnego i cierpliwego podejścia do nauki jazdy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFERTA & CENNIK -->
+    <section id="oferta" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-100/60 px-3 py-1 rounded-full">Transparentny Cennik</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-3 tracking-tight">Wybierz kurs dopasowany do Twoich potrzeb</h2>
+                <p class="text-slate-600 mt-2">Brak ukrytych opłat. Przejrzyste warunki od pierwszego dnia.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Package 1: Podstawowy -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Najpopularniejszy</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Kurs Podstawowy Kat. B</h3>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-slate-900">4 200 PLN</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> 30h zajęć teoretycznych</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> 30h zajęć praktycznych</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Materiały dydaktyczne</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Egzamin wewnętrzny</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Płatność w ratach 0%</li>
+                        </ul>
+                    </div>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Zapisz się</a>
+                </div>
+
+                <!-- Package 2: Ekspresowy (Promocja 4500 zł) -->
+                <div class="bg-slate-900 rounded-3xl p-6 border border-amber-500/50 shadow-xl text-white flex flex-col justify-between relative transform lg:-translate-y-2">
+                    <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-amber-500 to-red-500 text-white text-[11px] font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-lg animate-bounce">
+                        PROMOCJA !!!
+                    </div>
+                    <div>
+                        <span class="text-amber-400 font-semibold text-xs uppercase tracking-wider flex items-center gap-1 mt-1">
+                            <i data-lucide="zap" class="w-3.5 h-3.5"></i> Oferta Specjalna
+                        </span>
+                        <h3 class="text-xl font-bold mt-1 mb-2">Kurs Ekspresowy</h3>
+                        
+                        <!-- Banner Promocyjny -->
+                        <div class="bg-amber-500/20 border border-amber-500/40 rounded-xl p-2.5 mb-4 text-amber-300 text-xs font-bold text-center leading-snug">
+                            TYLKO WE WRZEŚNIU zrobisz kurs w miesiąc!!!!
+                        </div>
+
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-white">4 500 PLN</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-300 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Teoria e-learning</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Priorytet w harmonogramie</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Jazdy w ~15-20 dni</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Materiały w cenie</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Egzamin wewnętrzny</li>
+                        </ul>
+                    </div>
+                    <a href="#kontakt" class="w-full text-center bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold py-2.5 rounded-xl shadow-lg shadow-amber-500/20 transition-all block text-sm">Zapisz się na promocję</a>
+                </div>
+
+                <!-- Package 3: Godzina Dodatkowa -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Przed egzaminem</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Godzina Dodatkowa</h3>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-slate-900">160 PLN</span>
+                            <span class="text-slate-500 text-xs"> / h</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dla kursantów Akademii</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Indywidualne podejście</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Elastyczne terminy</li>
+                        </ul>
+                    </div>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Kup godzinę</a>
+                </div>
+
+                <!-- Package 4: Jazdy Doszkalające -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <span class="text-slate-500 font-semibold text-xs uppercase tracking-wider">Dla kierowców</span>
+                        <h3 class="text-xl font-bold text-slate-900 mt-1 mb-4">Jazdy Doszkalające</h3>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-slate-900">180 PLN</span>
+                            <span class="text-slate-500 text-xs"> / h</span>
+                        </div>
+                        <ul class="space-y-3 text-slate-600 text-sm mb-6">
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dla osób z prawem jazdy</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Trasy w realnym ruchu</li>
+                            <li class="flex items-center gap-2.5"><i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i> Dowolna liczba godzin</li>
+                        </ul>
+                    </div>
+                    <a href="#kontakt" class="w-full text-center bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold py-2.5 rounded-xl transition-colors block text-sm">Kup godziny</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- JAK ROZPOCZĄĆ (STEPS) -->
+    <section id="dlaczego-my" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Prosta droga do Twojego Prawa Jazdy</h2>
+                <p class="text-slate-600 mt-2">Zobacz, jak krok po kroku uzyskasz upragniony dokument.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center font-bold text-xl mx-auto mb-4 border border-blue-100">1</div>
+                    <h4 class="font-bold text-slate-900 mb-2">Profil PKK</h4>
+                    <p class="text-slate-500 text-sm">Zrób badanie lekarskie i odbierz Profil Kandydata na Kierowcę w Wydziale Komunikacji.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center font-bold text-xl mx-auto mb-4 border border-blue-100">2</div>
+                    <h4 class="font-bold text-slate-900 mb-2">Zapis na Kurs</h4>
+                    <p class="text-slate-500 text-sm">Skontaktuj się z nami tel. +48 798 430 540 i wybierz dogodny termin zajęć.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center font-bold text-xl mx-auto mb-4 border border-blue-100">3</div>
+                    <h4 class="font-bold text-slate-900 mb-2">Teoria i Jazdy</h4>
+                    <p class="text-slate-500 text-sm">Odbądź wykłady oraz 30 godzin jazdy po trasach egzaminacyjnych Płocka.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center font-bold text-xl mx-auto mb-4 border border-blue-100">4</div>
+                    <h4 class="font-bold text-slate-900 mb-2">Egzamin Zdamy!</h4>
+                    <p class="text-slate-500 text-sm">Zdasz egzamin państwowy w WORD i odbierasz swoje wymarzone prawo jazdy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer id="kontakt" class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="font-bold text-xl text-white mb-2">Akademia Jazdy Alicja Milun</p>
+            <p class="text-slate-300">adres wkrótce</p>
+            <p class="mt-2 text-blue-400 font-semibold">e-mail: akademiajazdy@milun.pl</p>
+            <p class="mt-2 text-blue-400 font-semibold">Tel: +48 798 430 540</p>
+            <p class="mt-8 text-sm text-slate-500">&copy; 2026 Akademia Jazdy Alicja Milun. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <!-- Inicjalizacja ikon Lucide -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
