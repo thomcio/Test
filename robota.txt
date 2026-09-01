@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Blokowanie prywatnych/administracyjnych katalogów (przykład)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /koszyk/
+
+# Wskazanie mapy witryny
+Sitemap: https://akademiajazdy.milun.pl/sitemap.xml
