@@ -68,7 +68,7 @@
     <link rel="canonical" href="https://akademiajazdy.milun.pl" />
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Akademia Jazdy Alicja Milun Płock">
-    <meta property="og:description" content="Ośrodek Szkolenia Kierowców, Akademia Jazdy Alicja Milun, kurszy na prawo jazdy kategorii B w Płocku">
+    <meta property="og:description" content="Ośrodek Szkolenia Kierowców, Akademia Jazdy Alicja Milun, kursy na prawo jazdy kategorii B w Płocku">
     <meta property="og:url" content="https://akademiajazdy.milun.pl">
     <meta property="og:type" content="website">
   
@@ -82,7 +82,7 @@
 <body class="bg-gray-50 text-gray-800 font-sans">
 
     <!-- Nav / Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
+    <header class="bg-black/10 backdrop-blur-xl border-b border-white/20 shadow-lg sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
             <!-- Logo / Nazwa -->
             <div class="flex justify-center items-center w-full">
@@ -93,7 +93,10 @@
             </div>
 
             <!-- Przycisk Zadzwoń (aktywny link tel:) -->
-            <div>
+            <div class="flex items-center gap-4">
+                <a href="/faq.html" class="hidden sm:inline-block text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors">
+                    FAQ
+                </a>
                 <a href="tel:+48798430540" 
                    class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 sm:px-6 rounded-full shadow-md hover:shadow-lg transition duration-300 transform active:scale-95">
                     <i class="fa-solid fa-phone mr-2 text-sm sm:text-base animate-pulse"></i>
@@ -387,6 +390,16 @@
                     <p class="text-slate-500 text-sm">Zdaj egzamin państwowy w WORD i odbierasz swoje wymarzone prawo jazdy.</p>
                 </div>
             </div>
+
+            <!-- CTA do FAQ -->
+            <div class="mt-14 max-w-2xl mx-auto bg-blue-50 border border-blue-100 rounded-2xl p-6 sm:p-8 text-center">
+                <h3 class="text-lg font-bold text-slate-900 mb-1">Masz pytania o cały ten proces?</h3>
+                <p class="text-slate-600 text-sm mb-4">Sprawdź odpowiedzi na najczęściej zadawane pytania - cena, czas trwania, formalności.</p>
+                <a href="/faq.html" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-6 rounded-full shadow-md hover:shadow-lg transition-all text-sm">
+                    Zobacz FAQ
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -474,7 +487,6 @@
     </p>
 
 </div>
-```
 
 </footer>
 
