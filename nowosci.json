@@ -1,0 +1,115 @@
+{
+  "aktualizacja": "12 października 2026",
+  "nowosci": [
+    {
+      "status": "planowane",
+      "data": "od 1 stycznia 2027",
+      "tytul": "Reforma egzaminu na prawo jazdy",
+      "tresc": "Resort infrastruktury zapowiada uproszczenie egzaminów. Baza pytań teoretycznych ma spaść z ok. 3,5 tys. do ok. 1,5 tys., a z egzaminu praktycznego na kat. B i B1 ma zniknąć plac manewrowy. Pytania mają bardziej sprawdzać przewidywanie zagrożeń niż pamięć. To na razie zapowiedź i projekt, szczegóły mogą się jeszcze zmienić."
+    },
+    {
+      "status": "planowane",
+      "data": "projekt ustawy UD402",
+      "tytul": "Cyfrowa karta kursanta i nowy system szkolenia",
+      "tresc": "Rząd opublikował projekt ustawy zakładający głęboką reformę zdobywania uprawnień: nowy system egzaminowania, cyfrową kartę kursanta i zmiany w szkoleniu kierowców. Projekt jest w toku prac, więc warto śledzić jego losy."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 29 stycznia 2026",
+      "tytul": "Nielegalne wyścigi i brawurowa jazda to przestępstwa",
+      "tresc": "Do Kodeksu karnego dodano odrębne przestępstwo udziału w nielegalnym wyścigu (dotyczy też organizatorów). Art. 178c obejmuje celowe wprowadzanie pojazdu w poślizg i odrywanie kół od ziemi na nielegalnych zlotach. Art. 178d to brawurowa jazda, która wymaga jednocześnie rażącego przekroczenia prędkości, rażącego naruszenia zasad ruchu i bezpośredniego zagrożenia życia lub zdrowia innej osoby."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Drift i jazda na jednym kole to wykroczenie",
+      "tresc": "Art. 86c Kodeksu wykroczeń uznaje za wykroczenie celowe wprowadzanie pojazdu w poślizg i utratę styczności kół z nawierzchnią. Za sam drift lub jazdę na tylnym kole grozi 10 punktów karnych. Jeśli powstanie zagrożenie w ruchu, dochodzi kolejne 12, czyli nawet 22 punkty za jeden manewr."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Zmieniony taryfikator punktów karnych",
+      "tresc": "Liczba punktów zależy teraz mocniej od kwalifikacji prawnej czynu i skali zagrożenia. Nawet 15 punktów można dostać za spowodowanie wypadku podczas nielegalnego wyścigu, rażące przekroczenie prędkości albo jazdę mimo aktywnego zakazu. Za używanie pojazdu w sposób zagrażający bezpieczeństwu przewidziano 12 punktów."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 marca 2026",
+      "tytul": "Prawo jazdy kat. B od 17 lat",
+      "tresc": "Młodzi kierowcy mogą uzyskać prawo jazdy kat. B już w wieku 17 lat, ale pod warunkiem jazdy pod nadzorem doświadczonego kierowcy. Kurs można rozpocząć wcześniej, od 16 lat i 9 miesięcy. Warunków i ograniczeń jest sporo, więc przed zapisem warto zapytać nas o szczegóły."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 marca 2026",
+      "tytul": "Zatrzymanie prawa jazdy za prędkość poza miastem",
+      "tresc": "Zaostrzono zasady zatrzymywania prawa jazdy. Za przekroczenie prędkości o 50 km/h na drodze jednojezdniowej, dwukierunkowej poza obszarem zabudowanym dokument będzie zatrzymywany."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 czerwca 2026",
+      "tytul": "Kask obowiązkowy dla dzieci do 16 lat",
+      "tresc": "Osoby poniżej 16. roku życia muszą nosić kask na rowerze, hulajnodze elektrycznej i innych urządzeniach transportu osobistego. Brak kasku to grzywna do 100 zł. Podwyższono też do 13 lat minimalny wiek dziecka, które może jeździć hulajnogą elektryczną po drodze."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 czerwca 2026",
+      "tytul": "Trudniej „wyczyścić” punkty karne",
+      "tresc": "Szkolenie nie zawsze pozwala już zmniejszyć liczbę punktów karnych. Możliwość redukcji ograniczono głównie do mniej poważnych naruszeń."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Przepadek auta przy 1,5‰ alkoholu",
+      "tresc": "Zgodnie z art. 44b Kodeksu karnego, przy prowadzeniu pojazdu z zawartością alkoholu co najmniej 1,5‰ sąd obligatoryjnie orzeka przepadek pojazdu mechanicznego."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "do 31 grudnia 2027",
+      "tytul": "Buspasy dla aut elektrycznych i wodorowych",
+      "tresc": "Możliwość jazdy buspasami przez pojazdy elektryczne i napędzane wodorem przedłużono do końca 2027 roku. Uwaga: ambulanse mogą korzystać z buspasów także bez sygnałów świetlnych i dźwiękowych, więc na tych pasach trzeba patrzeć w lusterka."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "luty 2026",
+      "tytul": "Strażacy i ratownicy z szerszymi uprawnieniami",
+      "tresc": "Prezydent podpisał nowelizację, która rozszerza uprawnienia strażaków i ratowników m.in. w kierowaniu ruchem i prowadzeniu pojazdów uprzywilejowanych. Doprecyzowano też przepisy o tymczasowym elektronicznym prawie jazdy."
+    },
+    {
+      "status": "planowane",
+      "data": "do 20 lipca 2027",
+      "tytul": "Mandaty z zagranicy: unijna dyrektywa",
+      "tresc": "Dyrektywa UE 2024/3237 usprawnia wymianę informacji między państwami o wykroczeniach drogowych i ściganie ich sprawców. Kraje członkowskie mają czas do 20 lipca 2027 roku na wdrożenie jej do prawa krajowego. Mandat zza granicy będzie więc trudniej zignorować."
+    }
+  ],
+  "ciekawostki": [
+    {
+      "ikona": "wine",
+      "tytul": "Dwa progi alkoholu",
+      "tresc": "Od 0,2‰ do 0,5‰ to stan po użyciu alkoholu (wykroczenie). Powyżej 0,5‰ to stan nietrzeźwości i przestępstwo."
+    },
+    {
+      "ikona": "sun",
+      "tytul": "Światła przez całą dobę",
+      "tresc": "Od 2007 roku w Polsce jeździmy z włączonymi światłami mijania przez cały rok, także w słoneczne letnie dni."
+    },
+    {
+      "ikona": "footprints",
+      "tytul": "Pieszy ma pierwszeństwo już przy wejściu",
+      "tresc": "Od 1 czerwca 2021 roku pieszy wchodzący na przejście ma pierwszeństwo przed pojazdem. Wcześniej chodziło o pieszego, który już się na nim znajdował."
+    },
+    {
+      "ikona": "gauge",
+      "tytul": "Limit 24 punktów",
+      "tresc": "Po przekroczeniu 24 punktów karnych tracisz prawo jazdy. Kierowcy w pierwszym roku po uzyskaniu uprawnień mają niższy limit: 20 punktów."
+    },
+    {
+      "ikona": "zap",
+      "tytul": "Limity prędkości dla osobówek",
+      "tresc": "50 km/h w terenie zabudowanym, 90 km/h poza nim, 100 km/h na drodze dwujezdniowej, 120 km/h na drodze ekspresowej i 140 km/h na autostradzie."
+    },
+    {
+      "ikona": "siren",
+      "tytul": "Korytarz życia",
+      "tresc": "W korku kierowcy muszą zrobić miejsce dla służb ratunkowych: pojazdy z lewego pasa zjeżdżają do lewej krawędzi, z pozostałych do prawej."
+    }
+  ]
+}
