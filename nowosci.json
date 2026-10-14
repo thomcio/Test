@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "12 października 2026",
+  "aktualizacja": "14 października 2026",
   "nowosci": [
     {
       "status": "planowane",
@@ -9,39 +9,27 @@
     },
     {
       "status": "planowane",
-      "data": "projekt ustawy UD402",
-      "tytul": "Cyfrowa karta kursanta i nowy system szkolenia",
-      "tresc": "Rząd opublikował projekt ustawy zakładający głęboką reformę zdobywania uprawnień: nowy system egzaminowania, cyfrową kartę kursanta i zmiany w szkoleniu kierowców. Projekt jest w toku prac, więc warto śledzić jego losy."
+      "data": "projekt UD402 z 25 września 2026",
+      "tytul": "Egzamin bez placu manewrowego i cyfrowa karta kursanta",
+      "tresc": "Projekt ustawy UD402 zapowiada egzamin kat. B bez manewrów na placu, cyfrową kartę kursanta, kamery na egzaminie wewnętrznym w ośrodkach szkolenia kierowców oraz wyższe wymagania wobec przyszłych instruktorów. To nadal projekt, więc jego treść i terminy mogą się jeszcze zmienić."
+    },
+    {
+      "status": "planowane",
+      "data": "większość zmian od 1 stycznia 2027",
+      "tytul": "Dzieci na rowerach przestaną być „pieszymi”",
+      "tresc": "Ministerstwo Infrastruktury proponuje zniesienie przepisu, według którego dziecko do 10 lat jadące rowerem pod opieką dorosłego jest traktowane jak pieszy. Projekt obniża też minimalny wiek na kartę rowerową z 10 do 9 lat. Na razie to propozycje, które muszą przejść dalsze prace legislacyjne."
+    },
+    {
+      "status": "planowane",
+      "data": "do 20 lipca 2027",
+      "tytul": "Mandaty z zagranicy: unijna dyrektywa",
+      "tresc": "Dyrektywa UE 2024/3237 usprawnia wymianę informacji między państwami o wykroczeniach drogowych i ściganie ich sprawców. Kraje członkowskie mają czas do 20 lipca 2027 roku na wdrożenie jej do prawa krajowego. Mandat zza granicy będzie więc trudniej zignorować."
     },
     {
       "status": "obowiazuje",
-      "data": "od 29 stycznia 2026",
-      "tytul": "Nielegalne wyścigi i brawurowa jazda to przestępstwa",
-      "tresc": "Do Kodeksu karnego dodano odrębne przestępstwo udziału w nielegalnym wyścigu (dotyczy też organizatorów). Art. 178c obejmuje celowe wprowadzanie pojazdu w poślizg i odrywanie kół od ziemi na nielegalnych zlotach. Art. 178d to brawurowa jazda, która wymaga jednocześnie rażącego przekroczenia prędkości, rażącego naruszenia zasad ruchu i bezpośredniego zagrożenia życia lub zdrowia innej osoby."
-    },
-    {
-      "status": "obowiazuje",
-      "data": "2026",
-      "tytul": "Drift i jazda na jednym kole to wykroczenie",
-      "tresc": "Art. 86c Kodeksu wykroczeń uznaje za wykroczenie celowe wprowadzanie pojazdu w poślizg i utratę styczności kół z nawierzchnią. Za sam drift lub jazdę na tylnym kole grozi 10 punktów karnych. Jeśli powstanie zagrożenie w ruchu, dochodzi kolejne 12, czyli nawet 22 punkty za jeden manewr."
-    },
-    {
-      "status": "obowiazuje",
-      "data": "2026",
-      "tytul": "Zmieniony taryfikator punktów karnych",
-      "tresc": "Liczba punktów zależy teraz mocniej od kwalifikacji prawnej czynu i skali zagrożenia. Nawet 15 punktów można dostać za spowodowanie wypadku podczas nielegalnego wyścigu, rażące przekroczenie prędkości albo jazdę mimo aktywnego zakazu. Za używanie pojazdu w sposób zagrażający bezpieczeństwu przewidziano 12 punktów."
-    },
-    {
-      "status": "obowiazuje",
-      "data": "od 3 marca 2026",
-      "tytul": "Prawo jazdy kat. B od 17 lat",
-      "tresc": "Młodzi kierowcy mogą uzyskać prawo jazdy kat. B już w wieku 17 lat, ale pod warunkiem jazdy pod nadzorem doświadczonego kierowcy. Kurs można rozpocząć wcześniej, od 16 lat i 9 miesięcy. Warunków i ograniczeń jest sporo, więc przed zapisem warto zapytać nas o szczegóły."
-    },
-    {
-      "status": "obowiazuje",
-      "data": "od 3 marca 2026",
-      "tytul": "Zatrzymanie prawa jazdy za prędkość poza miastem",
-      "tresc": "Zaostrzono zasady zatrzymywania prawa jazdy. Za przekroczenie prędkości o 50 km/h na drodze jednojezdniowej, dwukierunkowej poza obszarem zabudowanym dokument będzie zatrzymywany."
+      "data": "od 4 września 2026",
+      "tytul": "Okres próbny dla nowych kierowców",
+      "tresc": "Każdy, kto od 4 września 2026 r. po raz pierwszy uzyska prawo jazdy kat. B, jest objęty okresem próbnym: dwuletnim, a dla osób, które zdobyły uprawnienia w wieku 17 lat, trzyletnim (nie dłużej niż do 20. urodzin). W tym czasie obowiązuje 0,0‰ alkoholu i limit 12 punktów karnych. Po jego przekroczeniu trzeba odbyć praktyczne szkolenie w ośrodku doskonalenia jazdy (ok. 500 zł). Dwa wykroczenia z katalogu wydłużają okres próbny, a trzecie lub przestępstwo oznacza cofnięcie uprawnień."
     },
     {
       "status": "obowiazuje",
@@ -57,15 +45,51 @@
     },
     {
       "status": "obowiazuje",
-      "data": "2026",
-      "tytul": "Przepadek auta przy 1,5‰ alkoholu",
-      "tresc": "Zgodnie z art. 44b Kodeksu karnego, przy prowadzeniu pojazdu z zawartością alkoholu co najmniej 1,5‰ sąd obligatoryjnie orzeka przepadek pojazdu mechanicznego."
+      "data": "od 18 maja 2026",
+      "tytul": "Kursy reedukacyjne tylko stacjonarnie",
+      "tresc": "Kursy reedukacyjne dla kierowców nie mogą już odbywać się zdalnie. Dla kierowców przyłapanych na alkoholu lub narkotykach opłata za taki kurs wynosi 2500 zł."
     },
     {
       "status": "obowiazuje",
-      "data": "do 31 grudnia 2027",
-      "tytul": "Buspasy dla aut elektrycznych i wodorowych",
-      "tresc": "Możliwość jazdy buspasami przez pojazdy elektryczne i napędzane wodorem przedłużono do końca 2027 roku. Uwaga: ambulanse mogą korzystać z buspasów także bez sygnałów świetlnych i dźwiękowych, więc na tych pasach trzeba patrzeć w lusterka."
+      "data": "od 30 marca 2026",
+      "tytul": "Drift i jazda na jednym kole to wykroczenie",
+      "tresc": "Art. 86c Kodeksu wykroczeń uznaje za wykroczenie celowe wprowadzanie pojazdu w poślizg i utratę styczności kół z nawierzchnią. Za sam drift lub jazdę na tylnym kole grozi 10 punktów karnych. Jeśli powstanie zagrożenie w ruchu, dochodzi kolejne 12, czyli nawet 22 punkty za jeden manewr."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 marca 2026",
+      "tytul": "Prawo jazdy kat. B od 17 lat",
+      "tresc": "Młodzi kierowcy mogą uzyskać prawo jazdy kat. B już w wieku 17 lat, za pisemną zgodą rodziców. Kurs można zacząć od 16 lat i 9 miesięcy. Przez pierwsze sześć miesięcy od uzyskania prawa jazdy (nie dłużej niż do 18. urodzin) trzeba jeździć z osobą towarzyszącą na przednim fotelu: musi mieć co najmniej 25 lat, prawo jazdy kat. B od minimum 5 lat, brak zakazu prowadzenia w ostatnich 5 latach i być trzeźwa. Do 18. urodzin dokument jest ważny tylko w Polsce. Szczegóły chętnie wyjaśnimy w szkole."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 3 marca 2026",
+      "tytul": "Zatrzymanie prawa jazdy za prędkość poza miastem",
+      "tresc": "Zaostrzono zasady zatrzymywania prawa jazdy. Za przekroczenie prędkości o ponad 50 km/h na drodze jednojezdniowej, dwukierunkowej poza obszarem zabudowanym dokument jest zatrzymywany na 3 miesiące. Od tego samego dnia prowadzenie auta mimo takiego zatrzymania kończy się cofnięciem uprawnień na 5 lat."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 29 stycznia 2026",
+      "tytul": "Nielegalne wyścigi i brawurowa jazda to przestępstwa",
+      "tresc": "Do Kodeksu karnego dodano odrębne przestępstwo udziału w nielegalnym wyścigu (dotyczy też organizatorów). Art. 178c obejmuje celowe wprowadzanie pojazdu w poślizg i odrywanie kół od ziemi na nielegalnych zlotach. Art. 178d to brawurowa jazda, która wymaga jednocześnie rażącego przekroczenia prędkości, rażącego naruszenia zasad ruchu i bezpośredniego zagrożenia życia lub zdrowia innej osoby."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Dożywotni zakaz za jazdę mimo zakazu sądowego",
+      "tresc": "Kto prowadzi pojazd mimo orzeczonego wcześniej sądowego zakazu, musi liczyć się z obligatoryjnym dożywotnim zakazem prowadzenia pojazdów mechanicznych."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Zmieniony taryfikator punktów karnych",
+      "tresc": "Liczba punktów zależy teraz mocniej od kwalifikacji prawnej czynu i skali zagrożenia. Nawet 15 punktów można dostać za spowodowanie wypadku podczas nielegalnego wyścigu, rażące przekroczenie prędkości albo jazdę mimo aktywnego zakazu. Za używanie pojazdu w sposób zagrażający bezpieczeństwu przewidziano 12 punktów."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "2026",
+      "tytul": "Przepadek auta przy 1,5‰ alkoholu",
+      "tresc": "Zgodnie z art. 44b Kodeksu karnego, przy prowadzeniu pojazdu z zawartością alkoholu co najmniej 1,5‰ sąd obligatoryjnie orzeka przepadek pojazdu mechanicznego."
     },
     {
       "status": "obowiazuje",
@@ -74,17 +98,17 @@
       "tresc": "Prezydent podpisał nowelizację, która rozszerza uprawnienia strażaków i ratowników m.in. w kierowaniu ruchem i prowadzeniu pojazdów uprzywilejowanych. Doprecyzowano też przepisy o tymczasowym elektronicznym prawie jazdy."
     },
     {
-      "status": "planowane",
-      "data": "do 20 lipca 2027",
-      "tytul": "Mandaty z zagranicy: unijna dyrektywa",
-      "tresc": "Dyrektywa UE 2024/3237 usprawnia wymianę informacji między państwami o wykroczeniach drogowych i ściganie ich sprawców. Kraje członkowskie mają czas do 20 lipca 2027 roku na wdrożenie jej do prawa krajowego. Mandat zza granicy będzie więc trudniej zignorować."
+      "status": "obowiazuje",
+      "data": "do 31 grudnia 2027",
+      "tytul": "Buspasy dla aut elektrycznych i wodorowych",
+      "tresc": "Możliwość jazdy buspasami przez pojazdy elektryczne i napędzane wodorem przedłużono do końca 2027 roku. Uwaga: ambulanse mogą korzystać z buspasów także bez sygnałów świetlnych i dźwiękowych, więc na tych pasach trzeba patrzeć w lusterka."
     }
   ],
   "ciekawostki": [
     {
       "ikona": "wine",
       "tytul": "Dwa progi alkoholu",
-      "tresc": "Od 0,2‰ do 0,5‰ to stan po użyciu alkoholu (wykroczenie). Powyżej 0,5‰ to stan nietrzeźwości i przestępstwo."
+      "tresc": "Od 0,2‰ do 0,5‰ to stan po użyciu alkoholu (wykroczenie). Powyżej 0,5‰ to stan nietrzeźwości i przestępstwo. Nowi kierowcy w okresie próbnym mają obowiązek zachować 0,0‰."
     },
     {
       "ikona": "sun",
@@ -99,7 +123,7 @@
     {
       "ikona": "gauge",
       "tytul": "Limit 24 punktów",
-      "tresc": "Po przekroczeniu 24 punktów karnych tracisz prawo jazdy. Kierowcy w pierwszym roku po uzyskaniu uprawnień mają niższy limit: 20 punktów."
+      "tresc": "Po przekroczeniu 24 punktów karnych tracisz prawo jazdy. Kierowcy w okresie próbnym mają niższy limit: po przekroczeniu 12 punktów czeka ich obowiązkowe szkolenie praktyczne."
     },
     {
       "ikona": "zap",
