@@ -1,17 +1,35 @@
 {
-  "aktualizacja": "31 października 2026",
+  "aktualizacja": "10 listopada 2026",
   "nowosci": [
     {
       "status": "planowane",
-      "data": "od 1 stycznia 2027",
+      "data": "planowane od 1 stycznia 2027 (termin niepewny)",
       "tytul": "Reforma egzaminu na prawo jazdy",
-      "tresc": "Resort infrastruktury zapowiada uproszczenie egzaminów. Baza pytań teoretycznych ma spaść z ok. 3,5 tys. do ok. 1,5 tys., a z egzaminu praktycznego na kat. B i B1 ma zniknąć plac manewrowy (nauka na placu nadal będzie możliwa). Wynik testu teoretycznego ma tracić ważność po ograniczonym czasie: w pierwszej wersji projektu było to 24 miesiące, a według Prawa Drogowego w najnowszej wersji 12 miesięcy. Projekt rozkłada reformę na etapy: główny pakiet zmian od 1 stycznia 2027, kolejne od 1 lipca 2027, 1 stycznia 2028 i 1 stycznia 2029. To na razie projekt, szczegóły i terminy mogą się jeszcze zmienić."
+      "tresc": "Resort infrastruktury zapowiada uproszczenie egzaminów. Baza pytań teoretycznych ma spaść z ok. 3,5 tys. do ok. 1,5 tys. (według omówień projektu nowa baza ma obowiązywać dopiero od 1 stycznia 2028), a z egzaminu praktycznego na kat. B i B1 ma zniknąć plac manewrowy (nauka na placu nadal będzie możliwa). Wynik testu teoretycznego ma tracić ważność po ograniczonym czasie: w pierwszej wersji projektu było to 24 miesiące, a według Prawa Drogowego w najnowszej wersji 12 miesięcy. Reforma ma być wprowadzana etapami: główny pakiet od 1 stycznia 2027, kolejne od 1 lipca 2027, 1 stycznia 2028 i 1 stycznia 2029. Projekt nie został jeszcze przyjęty przez Radę Ministrów, a planowany termin jego przyjęcia był już przesuwany, więc daty mogą się opóźnić."
     },
     {
       "status": "planowane",
       "data": "projekt UD402 z 25 września 2026",
       "tytul": "Egzamin bez placu manewrowego i cyfrowa karta kursanta",
-      "tresc": "Projekt ustawy UD402 zapowiada egzamin kat. B bez manewrów na placu, cyfrową kartę kursanta, kamery na egzaminie wewnętrznym w ośrodkach szkolenia kierowców oraz wyższe wymagania wobec przyszłych instruktorów. Nowa wersja z 25 września zmienia też przepisy o drogach publicznych, Prawo o ruchu drogowym i ustawę o transporcie drogowym. Trafiła do ekspresowych, siedmiodniowych konsultacji, które zakończyły się 13 października. To nadal projekt, a w branży trwa spór o kształt egzaminu wewnętrznego, więc treść i terminy mogą się jeszcze zmienić."
+      "tresc": "Projekt ustawy UD402 zapowiada egzamin kat. B bez manewrów na placu, cyfrową kartę kursanta, kamery na egzaminie wewnętrznym w ośrodkach szkolenia kierowców oraz wyższe wymagania wobec przyszłych instruktorów (wymagany staż prawa jazdy ma wzrosnąć z 2 do 3 lat). Przewidziano też dodatkowe szkolenie praktyczne, jeśli od zakończenia kursu do pierwszego egzaminu praktycznego minie 2 lata, oraz nowe Centrum Egzaminowania z Radą Konsultacyjną w miejsce dotychczasowej komisji ds. pytań. Nowa wersja z 25 września zmienia też przepisy o drogach publicznych, Prawo o ruchu drogowym i ustawę o transporcie drogowym. Konsultacje zakończyły się 13 października. To nadal projekt, a w branży trwa spór o kształt egzaminu wewnętrznego, więc treść i terminy mogą się jeszcze zmienić."
+    },
+    {
+      "status": "planowane",
+      "data": "projekt poselski z 22 października 2026",
+      "tytul": "„Zabójstwo drogowe” w Kodeksie karnym",
+      "tresc": "Grupa posłów złożyła w Sejmie projekt nowelizacji Kodeksu karnego, który wprowadza nowe przestępstwo „zabójstwa drogowego”: od 8 do 25 lat więzienia dla sprawców śmiertelnych wypadków spowodowanych w warunkach rażącego naruszenia przepisów ruchu. Zespół ds. bezpieczeństwa ruchu drogowego przy Prezydencie RP uznał 29 października, że takie przestępstwo jest potrzebne, i przygotowuje rekomendacje. To na razie projekt, a nie obowiązujące prawo."
+    },
+    {
+      "status": "planowane",
+      "data": "pomysł z 29 października 2026",
+      "tytul": "Strefy ochronne przed przejściami dla pieszych",
+      "tresc": "Eksperci przy Prezydencie RP proponują strefę ochronną przed przejściem: odcinek jezdni o określonej długości z niższą prędkością i zakazem wyprzedzania oraz omijania pojazdu, który zatrzymał się, by przepuścić pieszego. Jednym z pomysłów na oznakowanie są zygzakowate linie, jak w Wielkiej Brytanii. To rekomendacje, które mogą stać się podstawą prezydenckiego projektu ustawy, a nie zmiana prawa."
+    },
+    {
+      "status": "planowane",
+      "data": "projekt rządowy, 10 listopada 2026",
+      "tytul": "Celowe potrącenie policjanta autem jako czynna napaść",
+      "tresc": "Ministerstwo Sprawiedliwości proponuje, by celowe skierowanie samochodu na policjanta lub inną osobę pełniącą służbę publiczną było czynną napaścią, za którą grozi surowsza odpowiedzialność. Powodem są wątpliwości, czy pojazd jest „przedmiotem podobnie niebezpiecznym” jak broń lub nóż. Projekt znalazł się w porządku obrad Rady Ministrów 10 listopada i ma trafić do Sejmu. Zakłada wejście w życie 14 dni po ogłoszeniu."
     },
     {
       "status": "planowane",
