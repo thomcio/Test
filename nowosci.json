@@ -1,9 +1,9 @@
 {
-  "aktualizacja": "10 listopada 2026",
+  "aktualizacja": "19 listopada 2026",
   "nowosci": [
     {
       "status": "planowane",
-      "data": "planowane od 1 stycznia 2027 (termin niepewny)",
+      "data": "od 1 stycznia 2027 (termin niepewny)",
       "tytul": "Reforma egzaminu na prawo jazdy",
       "tresc": "Resort infrastruktury zapowiada uproszczenie egzaminów. Baza pytań teoretycznych ma spaść z ok. 3,5 tys. do ok. 1,5 tys. (według omówień projektu nowa baza ma obowiązywać dopiero od 1 stycznia 2028), a z egzaminu praktycznego na kat. B i B1 ma zniknąć plac manewrowy (nauka na placu nadal będzie możliwa). Wynik testu teoretycznego ma tracić ważność po ograniczonym czasie: w pierwszej wersji projektu było to 24 miesiące, a według Prawa Drogowego w najnowszej wersji 12 miesięcy. Reforma ma być wprowadzana etapami: główny pakiet od 1 stycznia 2027, kolejne od 1 lipca 2027, 1 stycznia 2028 i 1 stycznia 2029. Projekt nie został jeszcze przyjęty przez Radę Ministrów, a planowany termin jego przyjęcia był już przesuwany, więc daty mogą się opóźnić."
     },
@@ -27,9 +27,9 @@
     },
     {
       "status": "planowane",
-      "data": "projekt rządowy, 10 listopada 2026",
+      "data": "projekt rządowy przyjęty 10 listopada 2026",
       "tytul": "Celowe potrącenie policjanta autem jako czynna napaść",
-      "tresc": "Ministerstwo Sprawiedliwości proponuje, by celowe skierowanie samochodu na policjanta lub inną osobę pełniącą służbę publiczną było czynną napaścią, za którą grozi surowsza odpowiedzialność. Powodem są wątpliwości, czy pojazd jest „przedmiotem podobnie niebezpiecznym” jak broń lub nóż. Projekt znalazł się w porządku obrad Rady Ministrów 10 listopada i ma trafić do Sejmu. Zakłada wejście w życie 14 dni po ogłoszeniu."
+      "tresc": "Ministerstwo Sprawiedliwości proponuje, by celowe skierowanie samochodu na policjanta lub inną osobę pełniącą służbę publiczną było czynną napaścią, za którą grozi surowsza odpowiedzialność. Powodem są wątpliwości, czy pojazd jest „przedmiotem podobnie niebezpiecznym” jak broń lub nóż. Rada Ministrów przyjęła projekt 10 listopada, teraz ma on trafić do Sejmu. Zakłada wejście w życie 14 dni po ogłoszeniu. Nie oznacza to, że każdy kierowca, który potrąci funkcjonariusza, odpowie za czynną napaść: liczą się okoliczności i zamiar."
     },
     {
       "status": "planowane",
@@ -42,6 +42,12 @@
       "data": "do 20 lipca 2027",
       "tytul": "Mandaty z zagranicy: unijna dyrektywa",
       "tresc": "Dyrektywa UE 2024/3237 usprawnia wymianę informacji między państwami o wykroczeniach drogowych i ściganie ich sprawców. Kraje członkowskie mają czas do 20 lipca 2027 roku na wdrożenie jej do prawa krajowego. Mandat zza granicy będzie więc trudniej zignorować."
+    },
+    {
+      "status": "obowiazuje",
+      "data": "od 21 listopada 2026",
+      "tytul": "Zatrzymanie prawa jazdy za wykroczenia na przejazdach kolejowych",
+      "tresc": "Od 21 listopada prawo jazdy będzie zatrzymywane na 3 miesiące za najpoważniejsze wykroczenia na przejazdach kolejowych: objeżdżanie opuszczonych zapór lub półzapór (także gdy się opuszczają lub podnoszą), wjazd na przejazd na czerwonym świetle oraz wjazd na tory, gdy po drugiej stronie nie ma miejsca na dalszą jazdę. Zatrzymanie dochodzi do mandatu 2000 zł i 15 punktów karnych. Według danych PKP od stycznia do października 2026 r. na przejazdach doszło do 142 wypadków i kolizji, w których zginęły 34 osoby. Wjeżdżaj dopiero, gdy rogatki są całkowicie podniesione, a sygnalizacja nie zabrania wjazdu."
     },
     {
       "status": "obowiazuje",
